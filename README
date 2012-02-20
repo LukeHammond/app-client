@@ -1,0 +1,5 @@
+"a pattern that devs can follow to segment all api behavior and requirements into a standalone application"
+
+== App Client 
+
+The purpose of this project it to host an app-server engine gem and examine different patterns that can be used to iteratively port functionality from a this app into this engine.
