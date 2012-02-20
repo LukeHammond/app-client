@@ -30,6 +30,8 @@ gem 'jquery-rails'
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'shoulda-matchers'
+  gem 'factory_girl'
 end
 
 gem 'app-server', :path => '../app-server'
