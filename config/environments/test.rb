@@ -5,7 +5,9 @@ AppClient::Application.configure do
   # test suite.  You never need to work with it otherwise.  Remember that
   # your test database is "scratch space" for the test suite and is wiped
   # and recreated between test runs.  Don't rely on the data there!
-  config.cache_classes = true
+  # config.cache_classes = true
+  # TODO: temporary hack to ensure model_extensions are loaded into rspec, make a permanent fix.
+  config.cache_classes = false
 
   # Configure static asset server for tests with Cache-Control for performance
   config.serve_static_assets = true
