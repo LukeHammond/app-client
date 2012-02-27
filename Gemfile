@@ -35,3 +35,4 @@ group :development, :test do
 end
 
 gem 'app-server', :path => '../app-server'
+gem 'auto-observer', :path => '../auto-observer'
